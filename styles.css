@@ -36,3 +36,25 @@ body {
     padding-left: 50px;
     font-size: 25px;
 }
+
+.food-item-container {
+    background-color: white;
+    width: 750px;
+}
+
+.food-item {
+    display: flex;
+}
+
+.food-item-name{
+    color: black;
+}
+
+.food-ingredients{
+    color: #8B8B8B;
+}
+
+.item-price {
+    color: black;
+    font-weight: bold;
+}
