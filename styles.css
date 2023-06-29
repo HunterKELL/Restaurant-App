@@ -39,22 +39,52 @@ body {
 
 .food-item-container {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 750px;
 }
 
 .food-item {
     display: flex;
+    align-items: center;
+    width: 600px;
+    height: 170px;
+    line-height: 10px;
+    border-bottom: 2px solid #D2D2D2;;
+}
+
+.food-content {
+    flex-grow: 1;
+    margin-left: 15px;
+    padding: 20px;
 }
 
 .food-item-name{
     color: black;
+    font-size: 25px;
 }
 
 .food-ingredients{
     color: #8B8B8B;
+    font-size: 16px;
+    line-height: 5px;
 }
 
 .item-price {
     color: black;
     font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.add-item-btn {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+    margin-top: 50px;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 1.5px solid #DEDEDE;
 }
