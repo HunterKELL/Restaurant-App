@@ -37,6 +37,7 @@ body {
     font-size: 25px;
 }
 
+/* Food Content */
 .food-item-container {
     background-color: white;
     display: flex;
@@ -87,4 +88,72 @@ body {
     font-size: 32px;
     border-radius: 50px;
     border: 1.5px solid #DEDEDE;
+}
+
+/* Order */
+.order-container {
+    /*background-color: aqua;*/
+    color: black;
+    width: 600px;
+}
+
+.order-container > h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ordered-item {
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.chosen-food-item {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+}
+
+.remove {
+    color: #8B8B8B;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 8px;
+}
+
+.chosen-item-price {
+    font-size: 20px;
+}
+
+.order-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #8B8B8B;
+}
+
+.total-text {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.total-price {
+    font-size: 20px;
+}
+
+.complete-order-btn {
+    background-color: #16DB99;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    padding: 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    border: none;
 }
