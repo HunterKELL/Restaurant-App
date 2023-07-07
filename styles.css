@@ -91,8 +91,9 @@ body {
     border: 1.5px solid #DEDEDE;
 }
 
-/* Order */
+/* Order Container */
 .order-container {
+    display: none;
     /*background-color: aqua;*/
     color: black;
     width: 600px;
@@ -161,6 +162,7 @@ body {
 
 /* Payment Modal*/
 .payment-modal {
+    display: none;
     background-color: white;
     position: fixed;
     top: 0;
