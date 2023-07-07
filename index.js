@@ -3,7 +3,7 @@ import { menuArray } from "./data.js";
 
 function getMenuHtml() {
     let menuHtml = ''
-    for (let items of menuArray){
+    menuArray.forEach(function(items){
         menuHtml += `
         <div class="food-item-container">
             <div class="food-item">
@@ -16,8 +16,8 @@ function getMenuHtml() {
                 <button class="add-item-btn">+</button>
             </div>
         </div>`
-    }
-    console.log(menuHtml)
+    })
+    //console.log(menuHtml)
 }
 
 getMenuHtml()
