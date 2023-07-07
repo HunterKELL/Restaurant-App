@@ -20,3 +20,8 @@ function getMenuHtml() {
 }
 //getMenuHtml()
 
+function render() {
+    document.getElementById('food-items').innerHTML += getMenuHtml()
+}
+
+render()
