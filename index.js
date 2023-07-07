@@ -5,7 +5,6 @@ function getMenuHtml() {
     let menuHtml = ''
     menuArray.forEach(function(items){
         menuHtml += `
-        <div class="food-item-container">
             <div class="food-item">
                 <img src="/Restaurant-App/images/pizza item graphic.png">
                 <div class="food-content">
@@ -14,10 +13,10 @@ function getMenuHtml() {
                     <p class="item-price">${items.price}</p>
                 </div>
                 <button class="add-item-btn">+</button>
-            </div>
-        </div>`
+            </div>`
     })
     //console.log(menuHtml)
+    return menuHtml
 }
+//getMenuHtml()
 
-getMenuHtml()
