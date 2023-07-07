@@ -6,7 +6,7 @@ function getMenuHtml() {
     menuArray.forEach(function(items){
         menuHtml += `
             <div class="food-item">
-                <img src="/Restaurant-App/images/pizza item graphic.png">
+                <img src=${items.image}>
                 <div class="food-content">
                     <h3 class="food-item-name">${items.name}</h3>
                     <p class="food-ingredients">${items.ingredients}</p>
